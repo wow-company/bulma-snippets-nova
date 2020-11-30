@@ -1,0 +1,421 @@
+{
+  "clips": [
+    {
+      "content": "$AUTHOR_NAME",
+      "name": "User Signature",
+      "trigger": "usersig"
+    },
+    {
+      "name": "Layout",
+      "children": [
+        {
+          "content": "<!DOCTYPE html>\n<html>  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>Hello Bulma!</title>\n    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css\">\n    <script defer src=\"https://use.fontawesome.com/releases/v5.15.0/js/all.js\"></script>\n  </head>\n  <body>\n  <section class=\"section\">\n    <div class=\"container\">\n      <h1 class=\"title\">\n        Hello World\n      </h1>\n      <p class=\"subtitle\">\n        My first website with <strong>Bulma</strong>!\n      </p>\n    </div>\n  </section>\n  </body>\n</html>",
+          "name": "Bulma Started Template",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_html"
+        },
+        {
+          "content": "<div class=\"columns\">\n  <div class=\"column\">\n    First column\n  </div>\n  <div class=\"column\">\n    Second column\n  </div>\n  <div class=\"column\">\n    Third column\n  </div>\n  <div class=\"column\">\n    Fourth column\n  </div>\n</div>",
+          "name": "Four basic columns",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_columns"
+        },
+        {
+          "content": "<div class=\"columns\">\n  <div class=\"column\">\n    First column\n  </div>\n</div>",
+          "name": "One basic column",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_columns_1"
+        },
+        {
+          "content": "<div class=\"columns\">\n  <div class=\"column\">\n    First column\n  </div>\n  <div class=\"column\">\n    Second column\n  </div>\n</div>",
+          "name": "Two basic columns",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_columns_2"
+        },
+        {
+          "content": "<div class=\"columns\">\n  <div class=\"column\">\n    First column\n  </div>\n  <div class=\"column\">\n    Second column\n  </div>\n  <div class=\"column\">\n    Third column\n  </div>\n  <div class=\"column\">\n</div>",
+          "name": "Three basic columns",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_columns_3"
+        },
+        {
+          "content": "<div class=\"columns\">\n  <div class=\"column is-half is-offset-one-quarter\">\n    Column\n  </div>\n</div>",
+          "name": "Column with offset",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_columns_o"
+        },
+        {
+          "content": "<div class=\"columns is-centered\">\n  <div class=\"column is-half\">\n    Column\n  </div>\n</div>",
+          "name": "Center column",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_columns_c"
+        },
+        {
+          "content": "<div class=\"container\">\n\n</div>",
+          "name": "Container basic",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_container"
+        },
+        {
+          "content": "<div class=\"container is-fluid\">\n\n</div>",
+          "name": "Container fluid",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_container_fluid"
+        },
+        {
+          "content": "<div class=\"container is-widescreen\">\n\n</div>",
+          "name": "Container Full Widt",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_container_wide"
+        },
+        {
+          "content": "<div class=\"container is-fullhd\">\n\n</div>",
+          "name": "Container Full HD",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_container_fullhd"
+        },
+        {
+          "content": "<footer class=\"footer\">\n  <div class=\"content has-text-centered\">\n    <p>\n      <strong>Bulma</strong> by <a href=\"https://jgthms.com\">Jeremy Thomas</a>. The source code is licensed\n      <a href=\"http://opensource.org/licenses/mit-license.php\">MIT</a>. The website content\n      is licensed <a href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">CC BY NC SA 4.0</a>.\n    </p>\n  </div>\n</footer>",
+          "name": "Footer",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_footer"
+        },
+        {
+          "content": "<section class=\"hero\">\n  <div class=\"hero-body\">\n    <div class=\"container\">\n      <h1 class=\"title\">\n        Hero title\n      </h1>\n      <h2 class=\"subtitle\">\n        Hero subtitle\n      </h2>\n    </div>\n  </div>\n</section>",
+          "name": "Hero",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_hero"
+        },
+        {
+          "content": "<section class=\"hero is-primary is-medium\">\n  <div class=\"hero-head\">\n    \n  </div>\n  <div class=\"hero-body\">\n    \n  </div>\n  <div class=\"hero-foot\">\n   \n  </div>\n</section>",
+          "name": "Hero in 3 parts",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_hero_3"
+        },
+        {
+          "content": "<div class=\"level\">\n  <div class=\"level-left\">\n    <div class=\"level-item\">\n     \n    </div>\n  </div>\n  \n  <div class=\"level-right\">\n    <div class=\"level-item\">\n     \n    </div>\n  </div>\n</div>",
+          "name": "Level",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_level"
+        },
+        {
+          "content": "<div class=\"level\">\n  <div class=\"level-item has-text-centered\">\n    \n  </div>\n  <div class=\"level-item has-text-centered\">\n    \n  </div>\n  <div class=\"level-item has-text-centered\">\n   \n  </div>\n  <div class=\"level-item has-text-centered\">\n    \n  </div>\n</div>",
+          "name": "Centered Level",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_level_c"
+        },
+        {
+          "content": "<article class=\"media\">\n  <figure class=\"media-left\">\n    <p class=\"image is-64x64\">\n      \n    </p>\n  </figure>\n  <div class=\"media-content\">\n    <div class=\"content\">\n      \n    </div>\n  </div>\n  <div class=\"media-right\">\n    \n  </div>\n</article",
+          "name": "Media Object",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_media"
+        },
+        {
+          "content": "<section class=\"section\">\n <div class=\"container\">\n  <h1 class=\"title\"></h1>\n  <h2 class=\"subtitle\"></h2>\n </div>\n</section>",
+          "name": "Section",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_section"
+        }
+      ]
+    },
+    {
+      "name": "Form",
+      "children": [
+        {
+          "content": "<div class=\"field\">\n  <label class=\"label\">\nName</label>\n  <div class=\"control\">\n    <input class=\"input\" type=\"text\" placeholder=\"Text input\">\n  </div>\n</div>\n\n<div class=\"field\">\n  <label class=\"label\">Username</label>\n  <div class=\"control has-icons-left has-icons-right\">\n    <input class=\"input is-success\" type=\"text\" placeholder=\"Text input\" value=\"bulma\">\n    <span class=\"icon is-small is-left\">\n      <i class=\"fas fa-user\"></i>\n    </span>\n    <span class=\"icon is-small is-right\">\n      <i class=\"fas fa-check\"></i>\n    </span>\n  </div>\n  <p class=\"help is-success\">This username is available</p>\n</div>\n\n<div class=\"field\">\n  <label class=\"label\">Email</label>\n  <div class=\"control has-icons-left has-icons-right\">\n    <input class=\"input is-danger\" type=\"email\" placeholder=\"Email input\" value=\"hello@\">\n    <span class=\"icon is-small is-left\">\n      <i class=\"fas fa-envelope\"></i>\n    </span>\n    <span class=\"icon is-small is-right\">\n      <i class=\"fas fa-exclamation-triangle\"></i>\n    </span>\n  </div>\n  <p class=\"help is-danger\">This email is invalid</p>\n</div>\n\n<div class=\"field\">\n  <label class=\"label\">Subject</label>\n  <div class=\"control\">\n    <div class=\"select\">\n      <select>\n        <option>Select dropdown</option>\n        <option>With options</option>\n      </select>\n    </div>\n  </div>\n</div>\n\n<div class=\"field\">\n  <label class=\"label\">Message</label>\n  <div class=\"control\">\n    <textarea class=\"textarea\" placeholder=\"Textarea\"></textarea>\n  </div>\n</div>\n\n<div class=\"field\">\n  <div class=\"control\">\n    <label class=\"checkbox\">\n      <input type=\"checkbox\">\n      I agree to the <a href=\"#\">terms and conditions</a>\n    </label>\n  </div>\n</div>\n\n<div class=\"field\">\n  <div class=\"control\">\n    <label class=\"radio\">\n      <input type=\"radio\" name=\"question\">\n      Yes\n    </label>\n    <label class=\"radio\">\n      <input type=\"radio\" name=\"question\">\n      No\n    </label>\n  </div>\n</div>\n\n<div class=\"field is-grouped\">\n  <div class=\"control\">\n    <button class=\"button is-link\">Submit</button>\n  </div>\n  <div class=\"control\">\n    <button class=\"button is-text\">Cancel</button>\n  </div>\n</div>\n",
+          "name": "Basic Form",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_form"
+        },
+        {
+          "content": "<input class=\"input\" type=\"text\" placeholder=\"Text input\">",
+          "name": "Form Input",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_input"
+        },
+        {
+          "content": "<textarea class=\"textarea\" placeholder=\"e.g. Hello world\"></textarea>",
+          "name": "Form Textarea",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_textarea"
+        },
+        {
+          "content": "<div class=\"select\">\n  <select>\n    <option>Select dropdown</option>\n    <option>With options</option>\n  </select>\n</div>",
+          "name": "Form Select, Dropdown",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_select"
+        },
+        {
+          "content": "<label class=\"checkbox\">\n  <input type=\"checkbox\">\n  Remember me\n</label>",
+          "name": "Form Checkbox",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_checkbox"
+        },
+        {
+          "content": "<div class=\"control\">\n  <label class=\"radio\">\n    <input type=\"radio\" name=\"answer\">\n    Yes\n  </label>\n  <label class=\"radio\">\n    <input type=\"radio\" name=\"answer\">\n    No\n  </label>\n</div>\n",
+          "name": "Form Radio",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_radio"
+        },
+        {
+          "content": "<div class=\"file\">\n  <label class=\"file-label\">\n    <input class=\"file-input\" type=\"file\" name=\"resume\">\n    <span class=\"file-cta\">\n      <span class=\"file-icon\">\n        <i class=\"fas fa-upload\">\n</i>\n      </span>\n      <span class=\"file-label\">\n        Choose a file…\n      </span>\n    </span>\n  </label>\n</div>",
+          "name": "Form File",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_file"
+        },
+        {
+          "content": "<p class=\"help\">This is a help text</p",
+          "name": "Help element",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_help"
+        },
+        {
+          "content": "<div class=\"field\">\n  <label class=\"label\">Name</label>\n  <div class=\"control\">\n    ${1:Form element}\n  </div>\n</div>\n",
+          "name": "Form Field",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_form_f"
+        },
+        {
+          "content": "<div class=\"field\">\n  <label class=\"label\">Label</label>\n  <div class=\"control has-icons-left has-icons-right\">\n    <input class=\"input\" type=\"text\" />\n    <span class=\"icon is-small is-left\">\n      <i class=\"fas fa-user\"></i>\n    </span>\n    <span class=\"icon is-small is-right\">\n      <i class=\"fas fa-check\"></i>\n    </span>\n  </div>\n  <p class=\"help is-success\">This username is available</p>\n</div>\n",
+          "name": "Form Field with icons",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_form_fi"
+        }
+      ]
+    },
+    {
+      "name": "Elements",
+      "children": [
+        {
+          "content": "<div class=\"block\">\n \n</div>",
+          "name": "Block",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_block"
+        },
+        {
+          "content": "<div class=\"box\">\n</div>",
+          "name": "Box",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_box"
+        },
+        {
+          "content": "<a class=\"button\">Button</a>",
+          "name": "Button",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_button"
+        },
+        {
+          "content": "<a class=\"button\">\n    <span class=\"icon\">\n      <i class=\"fab fa-github\"></i>\n    </span>\n    <span>GitHub</span>\n  </a>",
+          "name": "Button Icon",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_button_icon"
+        },
+        {
+          "content": "<div class=\"field is-grouped\">\n  <p class=\"control\">\n    <a class=\"button is-link\">\n      Save changes\n    </a>\n  </p>\n  <p class=\"control\">\n    <a class=\"button\">\n      Cancel\n    </a>\n  </p>\n  <p class=\"control\">\n    <a class=\"button is-danger\">\n      Delete post\n    </a>\n  </p>\n</div>",
+          "name": "Button Group",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_button_group"
+        },
+        {
+          "content": "<div class=\"field has-addons\">\n  <p class=\"control\">\n    <a class=\"button\">\n      <span class=\"icon is-small\">\n        <i class=\"fas fa-align-left\"></i>\n      </span>\n      <span>Left</span>\n    </a>\n  </p>\n  <p class=\"control\">\n    <a class=\"button\">\n      <span class=\"icon is-small\">\n        <i class=\"fas fa-align-center\"></i>\n      </span>\n      <span>Center</span>\n    </a>\n  </p>\n  <p class=\"control\">\n    <a class=\"button\">\n      <span class=\"icon is-small\">\n        <i class=\"fas fa-align-right\"></i>\n      </span>\n      <span>Right</span>\n    </a>\n  </p>\n</div>\n",
+          "name": "Button Addons",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_button_addons"
+        },
+        {
+          "content": "<div class=\"content\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.</div>",
+          "name": "Content",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_content"
+        },
+        {
+          "name": "Delete",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_delete",
+          "content": "<a class=\"delete\"></a>"
+        },
+        {
+          "name": "Icon",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_icon",
+          "content": "<span class=\"icon\">\n  <i class=\"fas fa-home\"></i>\n</span>"
+        },
+        {
+          "name": "Image",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_img",
+          "content": "<figure class=\"image\">\n <img src=\"\">\n</figure>"
+        },
+        {
+          "name": "Notification",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_notice",
+          "content": "<div class=\"notification\">\n  <button class=\"delete\"></button>\n  Lorem ipsum dolor sit amet, consectetur\n  adipiscing elit lorem ipsum dolor. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Sit amet,\n  consectetur adipiscing elit\n</div>"
+        },
+        {
+          "name": "Progress Bar",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_progress",
+          "content": "<progress class=\"progress\" value=\"15\" max=\"100\">15%</progress>"
+        },
+        {
+          "name": "Table",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_table",
+          "content": "<table class=\"table\">\n  <thead>\n    <tr>\n      <th><abbr title=\"Position\">Pos</abbr></th>\n      <th>Team</th>\n      <th><abbr title=\"Played\">Pld</abbr></th>\n      <th><abbr title=\"Won\">W</abbr></th>\n      <th>Qualification or relegation</th>\n    </tr>\n  </thead>\n  <tfoot>\n    <tr>\n      <th><abbr title=\"Position\">Pos</abbr></th>\n      <th>Team</th>\n      <th><abbr title=\"Played\">Pld</abbr></th>\n      <th><abbr title=\"Won\">W</abbr></th>\n      <th>Qualification or relegation</th>\n    </tr>\n  </tfoot>\n  <tbody>\n    <tr>\n      <th>1</th>\n      <td><a href=\"https://en.wikipedia.org/wiki/Leicester_City_F.C.\" title=\"Leicester City F.C.\">Leicester City</a> <strong>(C)</strong>\n      </td>\n      <td>38</td>\n            <td>Qualification for the <a href=\"https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Champions_League#Group_stage\" title=\"2016–17 UEFA Champions League\">Champions League group stage</a></td>\n    </tr>\n    <tr>\n      <th>2</th>\n      <td><a href=\"https://en.wikipedia.org/wiki/Arsenal_F.C.\" title=\"Arsenal F.C.\">Arsenal</a></td>\n      <td>38</td>\n      <td>Qualification for the <a href=\"https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Champions_League#Group_stage\" title=\"2016–17 UEFA Champions League\">Champions League group stage</a></td>\n    </tr>\n    <tr>\n      <th>3</th>\n      <td><a href=\"https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C.\" title=\"Tottenham Hotspur F.C.\">Tottenham Hotspur</a></td>\n      <td>38</td>\n      <td>19</td>\n      <td>13</td>\n      <td>6</td>\n      <td>69</td>\n      <td>35</td>\n      <td>+34</td>\n      <td>70</td>\n      <td>Qualification for the <a href=\"https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Champions_League#Group_stage\" title=\"2016–17 UEFA Champions League\">Champions League group stage</a></td>\n    </tr>\n    <tr class=\"is-selected\">\n      <th>4</th>\n      <td><a href=\"https://en.wikipedia.org/wiki/Manchester_City_F.C.\" title=\"Manchester City F.C.\">Manchester City</a></td>\n      <td>38</td>\n      <td>Qualification for the <a href=\"https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Champions_League#Play-off_round\" title=\"2016–17 UEFA Champions League\">Champions League play-off round</a></td>\n    </tr>\n    <tr>\n      <th>5</th>\n      <td><a href=\"https://en.wikipedia.org/wiki/Manchester_United_F.C.\" title=\"Manchester United F.C.\">Manchester United</a></td>\n      <td>38</td>\n      <td>Qualification for the <a href=\"https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Europa_League#Group_stage\" title=\"2016–17 UEFA Europa League\">Europa League group stage</a></td>\n    </tr>\n  </tbody>\n</table>\n"
+        },
+        {
+          "name": "Tag Basic",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_tag",
+          "content": "<span class=\"tag\">\n  Tag label\n</span>"
+        },
+        {
+          "name": "List of tags",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_tag_list",
+          "content": "<div class=\"tags\">\n  <span class=\"tag\">One</span>\n  <span class=\"tag\">Two</span>\n  <span class=\"tag\">Three</span>\n</div>"
+        },
+        {
+          "name": "Title",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_title",
+          "content": "<h1 class=\"title\">Title</h1>"
+        },
+        {
+          "name": "Subtitle",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_subtitle",
+          "content": "<h2 class=\"subtitle\">Subtitle</h2>"
+        }
+      ]
+    },
+    {
+      "name": "Components",
+      "children": [
+        {
+          "name": "Breadcrumb",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_breadcrumb",
+          "content": "<nav class=\"breadcrumb\" aria-label=\"breadcrumbs\">\n  <ul>\n    <li><a href=\"#\">Bulma</a></li>\n    <li><a href=\"#\">Documentation</a></li>\n    <li><a href=\"#\">Components</a></li>\n    <li class=\"is-active\"><a href=\"#\" aria-current=\"page\">Breadcrumb</a></li>\n  </ul>\n</nav>\n"
+        },
+        {
+          "name": "Card",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_card",
+          "content": "<div class=\"card\">\n  <div class=\"card-image\">\n    <figure class=\"image is-4by3\">\n      <img src=\"https://bulma.io/images/placeholders/1280x960.png\" alt=\"Placeholder image\">\n    </figure>\n  </div>\n  <div class=\"card-content\">\n    <div class=\"media\">\n      <div class=\"media-left\">\n        <figure class=\"image is-48x48\">\n          <img src=\"https://bulma.io/images/placeholders/96x96.png\" alt=\"Placeholder image\">\n        </figure>\n      </div>\n      <div class=\"media-content\">\n        <p class=\"title is-4\">John Smith</p>\n        <p class=\"subtitle is-6\">@johnsmith</p>\n      </div>\n    </div>\n\n    <div class=\"content\">\n      Lorem ipsum dolor sit amet, consectetur adipiscing elit.      Phasellus nec iaculis mauris. <a>@bulmaio</a>\n.      <a href=\"#\">#css</a> <a href=\"#\">#responsive</a>\n      <br>\n      <time datetime=\"2016-1-1\">11:09 PM - 1 Jan 2016</time>\n    </div>\n  </div>\n</div>\n"
+        },
+        {
+          "name": "Card Header, Body and Footer",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_card_full",
+          "content": "<div class=\"card\">\n  <header class=\"card-header\">\n    <p class=\"card-header-title\">\n      Component    </p>\n    <a href=\"#\" class=\"card-header-icon\" aria-label=\"more options\">\n      <span class=\"icon\">\n        <i class=\"fas fa-angle-down\" aria-hidden=\"true\"></i>\n      </span>\n    </a>\n  </header>\n  <div class=\"card-content\">\n    <div class=\"content\">\n      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.      <a href=\"#\">@bulmaio</a>. <a href=\"#\">#css</a> <a href=\"#\">#responsive</a>\n      <br>\n      <time datetime=\"2016-1-1\">11:09 PM - 1 Jan 2016</time>\n    </div>\n  </div>\n  <footer class=\"card-footer\">\n    <a href=\"#\" class=\"card-footer-item\">Save</a>\n    <a href=\"#\" class=\"card-footer-item\">Edit</a>\n    <a href=\"#\" class=\"card-footer-item\">Delete</a>\n  </footer>\n</div>\n"
+        },
+        {
+          "name": "Dropdown",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_dropdown",
+          "content": "<div class=\"dropdown is-active\">\n  <div class=\"dropdown-trigger\">\n    <button class=\"button\" aria-haspopup=\"true\" aria-controls=\"dropdown-menu\">\n      <span>Dropdown button</span>\n      <span class=\"icon is-small\">\n        <i class=\"fas fa-angle-down\" aria-hidden=\"true\"></i>\n      </span>\n    </button>\n  </div>\n  <div class=\"dropdown-menu\" id=\"dropdown-menu\" role=\"menu\">\n    <div class=\"dropdown-content\">\n      <a href=\"#\" class=\"dropdown-item\"> Dropdown item </a>\n      <a class=\"dropdown-item\"> Other dropdown item </a>\n      <a href=\"#\" class=\"dropdown-item is-active\"> Active dropdown item </a>\n      <a href=\"#\" class=\"dropdown-item\"> Other dropdown item </a>\n      <hr class=\"dropdown-divider\" />\n      <a href=\"#\" class=\"dropdown-item\"> With a divider </a>\n    </div>\n  </div>\n</div>\n"
+        },
+        {
+          "name": "Menu",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_menu",
+          "content": "<aside class=\"menu\">\n  <p class=\"menu-label\">General</p>\n  <ul class=\"menu-list\">\n    <li><a>Dashboard</a></li>\n    <li><a>Customers</a></li>\n  </ul>\n  <p class=\"menu-label\">Administration</p>\n  <ul class=\"menu-list\">\n    <li><a>Team Settings</a></li>\n    <li>\n      <a class=\"is-active\">Manage Your Team</a>\n      <ul>\n        <li><a>Members</a></li>\n        <li><a>Plugins</a></li>\n        <li><a>Add a member</a></li>\n      </ul>\n    </li>\n    <li><a>Invitations</a></li>\n    <li><a>Cloud Storage Environment Settings</a></li>\n    <li><a>Authentication</a></li>\n  </ul>\n  <p class=\"menu-label\">Transactions</p>\n  <ul class=\"menu-list\">\n    <li><a>Payments</a></li>\n    <li><a>Transfers</a></li>\n    <li><a>Balance</a></li>\n  </ul>\n</aside>\n"
+        },
+        {
+          "name": "Message",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_message",
+          "content": "<article class=\"message\">\n  <div class=\"message-header\">\n    <p>Hello World</p>\n    <button class=\"delete\" aria-label=\"delete\"></button>\n  </div>\n  <div class=\"message-body\">\n    Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis sodales sem.\n  </div>\n</article>\n"
+        },
+        {
+          "name": "Modal",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_modal",
+          "content": "<div class=\"modal\">\n  <div class=\"modal-background\"></div>\n  <div class=\"modal-content\">\n    Any other Bulma elements you want\n  </div>\n  <button class=\"modal-close is-large\" aria-label=\"close\"></button>\n</div>\n"
+        },
+        {
+          "name": "Navbar",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_navbar",
+          "content": "<nav class=\"navbar\" role=\"navigation\" aria-label=\"main navigation\">\n  <div class=\"navbar-brand\">\n    <a class=\"navbar-item\" href=\"https://bulma.io\">\n      <img src=\"https://bulma.io/images/bulma-logo.png\" width=\"112\" height=\"28\">\n    </a>\n\n    <a role=\"button\" class=\"navbar-burger burger\" aria-label=\"menu\" aria-expanded=\"false\" data-target=\"navbarBasicExample\">\n      <span aria-hidden=\"true\"></span>\n      <span aria-hidden=\"true\"></span>\n      <span aria-hidden=\"true\"></span>\n    </a>\n  </div>\n\n  <div id=\"navbarBasicExample\" class=\"navbar-menu\">\n    <div class=\"navbar-start\">\n      <a class=\"navbar-item\">\n        Home\n      </a>\n\n      <a class=\"navbar-item\">\n        Documentation\n      </a>\n\n      <div class=\"navbar-item has-dropdown is-hoverable\">\n        <a class=\"navbar-link\">\n          More\n        </a>\n\n        <div class=\"navbar-dropdown\">\n          <a class=\"navbar-item\">\n            About\n          </a>\n          <a class=\"navbar-item\">\n            Jobs\n          </a>\n          <a class=\"navbar-item\">\n            Contact\n          </a>\n          <hr class=\"navbar-divider\">\n          <a class=\"navbar-item\">\n            Report an issue\n          </a>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"navbar-end\">\n      <div class=\"navbar-item\">\n        <div class=\"buttons\">\n          <a class=\"button is-primary\">\n            <strong>Sign up</strong>\n          </a>\n          <a class=\"button is-light\">\n            Log in\n          </a>\n        </div>\n      </div>\n    </div>\n  </div>\n</nav>"
+        },
+        {
+          "name": "Pagination",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_pagination",
+          "content": "<nav class=\"pagination\" role=\"navigation\" aria-label=\"pagination\">\n  <a class=\"pagination-previous\">Previous</a>\n  <a class=\"pagination-next\">Next page</a>\n  <ul class=\"pagination-list\">\n    <li>\n      <a class=\"pagination-link\" aria-label=\"Goto page 1\">1</a>\n    </li>\n    <li>\n      <span class=\"pagination-ellipsis\">&hellip;</span>\n    </li>\n    <li>\n      <a class=\"pagination-link\" aria-label=\"Goto page 45\">45</a>\n    </li>\n    <li>\n      <a class=\"pagination-link is-current\" aria-label=\"Page 46\" aria-current=\"page\">46</a>\n    </li>\n    <li>\n      <a class=\"pagination-link\" aria-label=\"Goto page 47\">47</a>\n    </li>\n    <li>\n      <span class=\"pagination-ellipsis\">&hellip;</span>\n    </li>\n    <li>\n      <a class=\"pagination-link\" aria-label=\"Goto page 86\">86</a>\n    </li>\n  </ul>\n</nav>\n"
+        },
+        {
+          "name": "Panel",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_panel",
+          "content": "<nav class=\"panel\">\n  <p class=\"panel-heading\">Repositories</p>\n  <div class=\"panel-block\">\n    <p class=\"control has-icons-left\">\n      <input class=\"input\" type=\"text\" placeholder=\"Search\" />\n      <span class=\"icon is-left\">\n        <i class=\"fas fa-search\" aria-hidden=\"true\"></i>\n      </span>\n    </p>\n  </div>\n  <p class=\"panel-tabs\">\n    <a class=\"is-active\">All</a>\n    <a>Public</a>\n    <a>Private</a>\n    <a>Sources</a>\n    <a>Forks</a>\n  </p>\n  <a class=\"panel-block is-active\">\n    <span class=\"panel-icon\">\n      <i class=\"fas fa-book\" aria-hidden=\"true\"></i>\n    </span>\n    bulma\n  </a>\n  <a class=\"panel-block\">\n    <span class=\"panel-icon\">\n      <i class=\"fas fa-book\" aria-hidden=\"true\"></i>\n    </span>\n    marksheet\n  </a>\n  <a class=\"panel-block\">\n    <span class=\"panel-icon\">\n      <i class=\"fas fa-book\" aria-hidden=\"true\"></i>\n    </span>\n    minireset.css\n  </a>\n  <a class=\"panel-block\">\n    <span class=\"panel-icon\">\n      <i class=\"fas fa-book\" aria-hidden=\"true\"></i>\n    </span>\n    jgthms.github.io\n  </a>\n  <a class=\"panel-block\">\n    <span class=\"panel-icon\">\n      <i class=\"fas fa-code-branch\" aria-hidden=\"true\"></i>\n    </span>\n    daniellowtw/infboard\n  </a>\n  <a class=\"panel-block\">\n    <span class=\"panel-icon\">\n      <i class=\"fas fa-code-branch\" aria-hidden=\"true\"></i>\n    </span>\n    mojs\n  </a>\n  <label class=\"panel-block\">\n    <input type=\"checkbox\" />\n    remember me\n  </label>\n  <div class=\"panel-block\">\n    <button class=\"button is-link is-outlined is-fullwidth\">\n      Reset all filters\n    </button>\n  </div>\n</nav>\n"
+        },
+        {
+          "name": "Tabs",
+          "scope": "editor",
+          "syntax": "html",
+          "trigger": "b_tabs",
+          "content": "<div class=\"tabs\">\n  <ul>\n    <li class=\"is-active\"><a>Pictures</a></li>\n    <li><a>Music</a></li>\n    <li><a>Videos</a></li>\n    <li><a>Documents</a></li>\n  </ul>\n</div>\n"
+        }
+      ]
+    }
+  ]
+}

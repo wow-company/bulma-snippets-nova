@@ -1,0 +1,9 @@
+{
+  "identifier": "dmytro.lobov",
+  "name": "Bulm Snippets",
+  "organization": "Dmytro Lobov",
+  "description": "The extension content all main snippets of Bulma https://bulma.io/.",
+  "version": "0.1",
+  "categories": ["clips"],
+  "activationEvents": ["onLanguage:html"]
+}
